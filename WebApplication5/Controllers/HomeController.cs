@@ -15,6 +15,10 @@ namespace WebApplication5.Controllers
         public IActionResult Index()
         {
             return View();
-        } 
+        }
+        public IActionResult Login()
+        {
+            return View("Login Succesfully to the Dashboard");
+        }
     }
 }
